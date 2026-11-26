@@ -1,0 +1,27 @@
+# Secrets & local environment files
+.env
+*.pem
+*.key
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Local SQLite databases & logs
+*.db
+*.sqlite3
+*.log
+
+# Local HuggingFace, Sentence-Transformers & PyTorch caches
+.cache/
+huggingface/
+torch/
+models/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
